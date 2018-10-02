@@ -1,0 +1,915 @@
+{
+	"LeconsVideos": [{
+			"id": 2,
+			"nom": "Acide et base faibles",
+			"created_at": "2017-06-08T16:28:59.977Z",
+			"updated_at": "2017-06-08T16:28:59.977Z",￼
+			"niveau_id": 4,
+			"matiere_id": 4,
+			"videos": [{
+					"id": 1,
+					"nom": "domaine de predominance",
+					"contenu": "",
+					"created_at": "2017-06-08T16:38:57.322Z",
+					"updated_at": "2017-06-08T16:38:57.322Z",
+					"youtube_id": "XJgUZv1qQIc",
+					"chapitre_id": 2
+				},
+				{
+					"id": 2,
+					"nom": "constante d acidite",
+					"contenu": "",
+					"created_at": "2017-06-08T16:40:31.368Z",
+					"updated_at": "2017-06-08T16:40:31.368Z",
+					"youtube_id": "krLXeE3-96w",
+					"chapitre_id": 2
+				},
+				{
+					"id": 3,
+					"nom": "couple acide base",
+					"contenu": "",
+					"created_at": "2017-06-08T16:41:20.005Z",
+					"updated_at": "2017-06-08T16:41:20.005Z",
+					"youtube_id": "JCmZdZWUXvY",
+					"chapitre_id": 2
+				},
+				{
+					"id": 4,
+					"nom": "Base faible",
+					"contenu": "",
+					"created_at": "2017-06-08T16:42:23.068Z",
+					"updated_at": "2017-06-08T16:42:23.068Z",
+					"youtube_id": "GLAGbA7n_Uc",
+					"chapitre_id": 2
+				},
+				{
+					"id": 5,
+					"nom": "acide faible",
+					"contenu": "",
+					"created_at": "2017-06-08T16:43:20.566Z",
+					"updated_at": "2017-06-08T16:43:20.566Z",
+					"youtube_id": "GsVrE0Ikcwk",
+					"chapitre_id": 2
+				},
+				{
+					"id": 6,
+					"nom": "introduction acide et base faibles",
+					"contenu": "",
+					"created_at": "2017-06-08T16:44:22.731Z",
+					"updated_at": "2017-06-08T16:44:22.731Z",
+					"youtube_id": "wMCHI3aNYMU",
+					"chapitre_id": 2
+				}
+			]
+		},
+
+		{
+			"id": 3,
+			"nom": "Les acides carboxyliques et dérivées",
+			"created_at": "2017-06-08T16:45:19.397Z",
+			"updated_at": "2017-06-08T16:45:19.397Z",
+			"niveau_id": 4,
+			"matiere_id": 4,
+			"videos": [{
+					"id": 7,
+					"nom": "Les acide carboxyliques et dérivées. amide",
+					"contenu": "",
+					"created_at": "2017-06-08T16:46:48.792Z",
+					"updated_at": "2017-06-08T16:46:48.792Z",
+					"youtube_id": "VBBRHBCLavg",
+					"chapitre_id": 3
+				},
+				{
+					"id": 8,
+					"nom": "Les acide carboxyliques et dérivées. Ester",
+					"contenu": "",
+					"created_at": "2017-06-08T16:47:53.370Z",
+					"updated_at": "2017-06-08T16:47:53.370Z",
+					"youtube_id": "qfLBS3cYGOk",
+					"chapitre_id": 3
+				},
+				{
+					"id": 9,
+					"nom": "Les acides carboxyliques. Les anhydrides d'acide",
+					"contenu": "",
+					"created_at": "2017-06-08T16:48:50.910Z",
+					"updated_at": "2017-06-08T16:48:50.910Z",
+					"youtube_id": "nB3ItQ3sqsM",
+					"chapitre_id": 3
+				},
+				{
+					"id": 10,
+					"nom": "Les acides carboxyliques. Les chlorures d'acide",
+					"contenu": "",
+					"created_at": "2017-06-08T16:49:40.215Z",
+					"updated_at": "2017-06-08T16:49:40.215Z",
+					"youtube_id": "c4lh5Ai8Xss",
+					"chapitre_id": 3
+				},
+				{
+					"id": 11,
+					"nom": "Les acides carboxyliques. Acidité",
+					"contenu": "",
+					"created_at": "2017-06-08T16:50:30.549Z",
+					"updated_at": "2017-06-08T16:50:30.549Z",
+					"youtube_id": "iC663ZFepU0",
+					"chapitre_id": 3
+				},
+				{
+					"id": 12,
+					"nom": "Les acides carboxyliques. Décarboxylation",
+					"contenu": "",
+					"created_at": "2017-06-08T16:51:28.874Z",
+					"updated_at": "2017-06-08T16:51:28.874Z",
+					"youtube_id": "9kmiVezlma4",
+					"chapitre_id": 3
+				},
+				{
+					"id": 13,
+					"nom": "Les acides carboxyliques. Conductibilité électrique.",
+					"contenu": "",
+					"created_at": "2017-06-08T16:52:23.294Z",
+					"updated_at": "2017-06-08T16:52:23.294Z",
+					"youtube_id": "VxQZ9IlYBp8",
+					"chapitre_id": 3
+				},
+				{
+					"id": 14,
+					"nom": "Les acides carboxyliques : origine formule générale et nomenclature",
+					"contenu": "",
+					"created_at": "2017-06-08T16:53:28.002Z",
+					"updated_at": "2017-06-08T16:53:28.002Z",
+					"youtube_id": "N8Q_dDbdJU8",
+					"chapitre_id": 3
+				},
+				{
+					"id": 15,
+					"nom": "Les acides carboxyliques. Introduction ",
+					"contenu": "",
+					"created_at": "2017-06-08T16:54:37.856Z",
+					"updated_at": "2017-06-08T16:54:37.856Z",
+					"youtube_id": "SPzlZm_Gt8E",
+					"chapitre_id": 3
+				}
+			]
+		},
+
+		{
+			"id": 4,
+			"nom": "Les alcools",
+			"created_at": "2017-06-11T16:48:51.054Z",
+			"updated_at": "2017-06-11T16:48:51.054Z",
+			"niveau_id": 4,
+			"matiere_id": 4,
+			"videos": [{
+					"id": 16,
+					"nom": "Les alcools Polyalcools",
+					"contenu": "",
+					"created_at": "2017-06-11T16:50:19.864Z",
+					"updated_at": "2017-06-11T16:50:19.864Z",
+					"youtube_id": "bn7Q78Mz-y4",
+					"chapitre_id": 4
+				},
+				{
+					"id": 17,
+					"nom": "Les alcools Oxydation douce",
+					"contenu": "",
+					"created_at": "2017-06-11T16:50:59.638Z",
+					"updated_at": "2017-06-11T16:50:59.638Z",
+					"youtube_id": "ipDQSevaRpk",
+					"chapitre_id": 4
+				},
+				{
+					"id": 18,
+					"nom": "Les alcools Combustion complete",
+					"contenu": "",
+					"created_at": "2017-06-11T16:51:42.228Z",
+					"updated_at": "2017-06-11T16:51:42.228Z",
+					"youtube_id": "fl7CjmNEUJQ",
+					"chapitre_id": 4
+				},
+				{
+					"id": 19,
+					"nom": "Les alcools déshydratation",
+					"contenu": "",
+					"created_at": "2017-06-11T16:52:44.470Z",
+					"updated_at": "2017-06-11T16:52:44.470Z",
+					"youtube_id": "oDehZxH5UwM",
+					"chapitre_id": 4
+				},
+				{
+					"id": 20,
+					"nom": "Les alcools Classes",
+					"contenu": "",
+					"created_at": "2017-06-11T16:53:52.638Z",
+					"updated_at": "2017-06-11T16:53:52.638Z",
+					"youtube_id": "yfDtmiWSrh8",
+					"chapitre_id": 4
+				},
+				{
+					"id": 21,
+					"nom": "Les alcool Introduction",
+					"contenu": "",
+					"created_at": "2017-06-11T16:54:18.782Z",
+					"updated_at": "2017-06-11T16:54:18.782Z",
+					"youtube_id": "qml4GO8LI8Y",
+					"chapitre_id": 4
+				}
+			]
+		},
+		{
+			"id": 5,
+			"nom": "Cinétique chimique",
+			"created_at": "2017-06-11T16:55:27.141Z",
+			"updated_at": "2017-06-11T16:55:27.141Z",
+			"niveau_id": 4,
+			"matiere_id": 4,
+			"videos": [{
+					"id": 22,
+					"nom": "Vitesse d'un constituant d'une réaction chimique",
+					"contenu": "",
+					"created_at": "2017-06-11T16:57:34.570Z",
+					"updated_at": "2017-06-11T16:57:34.570Z",
+					"youtube_id": "I1qGSvKz2F0",
+					"chapitre_id": 5
+				},
+				{
+					"id": 23,
+					"nom": "Vitesse de disparition",
+					"contenu": "",
+					"created_at": "2017-06-11T16:58:27.523Z",
+					"updated_at": "2017-06-11T16:58:27.523Z",
+					"youtube_id": "pJZcaLZIi-I",
+					"chapitre_id": 5
+				},
+				{
+					"id": 24,
+					"nom": "Relation entre les vitesses de réaction",
+					"contenu": "",
+					"created_at": "2017-06-11T16:59:03.896Z",
+					"updated_at": "2017-06-11T16:59:03.896Z",
+					"youtube_id": "XFIsR6qSZbw",
+					"chapitre_id": 5
+				},
+				{
+					"id": 25,
+					"nom": "Cinetique de la réaction entre l'éthanoate de methyle avec la soude",
+					"contenu": "",
+					"created_at": "2017-06-11T16:59:55.671Z",
+					"updated_at": "2017-06-11T16:59:55.671Z",
+					"youtube_id": "586se64Bh8Q",
+					"chapitre_id": 5
+				},
+				{
+					"id": 26,
+					"nom": "Effet du fer II sur la réaction des ions iodures avec les ions peroxydisulfates",
+					"contenu": "",
+					"created_at": "2017-06-11T17:00:45.583Z",
+					"updated_at": "2017-06-11T17:00:45.583Z",
+					"youtube_id": "inYff1P_QJM",
+					"chapitre_id": 5
+				},
+				{
+					"id": 27,
+					"nom": "reaction du vinaigre avec la craie",
+					"contenu": "",
+					"created_at": "2017-06-11T17:02:24.738Z",
+					"updated_at": "2017-06-11T17:02:24.738Z",
+					"youtube_id": "9LsPfhVfxxo",
+					"chapitre_id": 5
+				},
+				{
+					"id": 28,
+					"nom": "Introduction à la cinétique chimique",
+					"contenu": "",
+					"created_at": "2017-06-11T17:03:20.843Z",
+					"updated_at": "2017-06-11T17:03:20.843Z",
+					"youtube_id": "lUTkmMu5yCM",
+					"chapitre_id": 5
+				}
+			]
+		},
+		{
+			"id": 7,
+			"nom": "Application des bases de la dynamique",
+			"created_at": "2017-06-11T17:04:56.898Z",
+			"updated_at": "2017-06-11T17:05:44.068Z",
+			"niveau_id": 4,
+			"matiere_id": 3,
+			"videos": [{
+					"id": 29,
+					"nom": "Introduction des bases de la dynamique",
+					"contenu": "",
+					"created_at": "2017-06-11T17:18:02.210Z",
+					"updated_at": "2017-06-11T17:18:02.210Z",
+					"youtube_id": "N5jcziEX7ZY",
+					"chapitre_id": 7
+				},
+				{
+					"id": 30,
+					"nom": "Mouvement d'un solide glissant sur un plan incliné",
+					"contenu": "",
+					"created_at": "2017-06-11T17:19:18.156Z",
+					"updated_at": "2017-06-11T17:19:18.156Z",
+					"youtube_id": "x4ymUZoKzrc",
+					"chapitre_id": 7
+				},
+				{
+					"id": 31,
+					"nom": "Mouvement d'une bille dans un fluide. Inventaire des forces",
+					"contenu": "",
+					"created_at": "2017-06-11T17:20:10.440Z",
+					"updated_at": "2017-06-11T17:20:10.440Z",
+					"youtube_id": "pWt5Nif1BqM",
+					"chapitre_id": 7
+				},
+				{
+					"id": 32,
+					"nom": "mvt bille liquid vites lim",
+					"contenu": "",
+					"created_at": "2017-06-11T17:20:54.101Z",
+					"updated_at": "2017-06-11T17:20:54.101Z",
+					"youtube_id": "Mz2Vd9Q6jx0",
+					"chapitre_id": 7
+				},
+				{
+					"id": 33,
+					"nom": "Mouvement d'un projectile dans le champ de pesanteur. Équations horaires",
+					"contenu": "",
+					"created_at": "2017-06-11T17:21:43.879Z",
+					"updated_at": "2017-06-11T17:21:43.879Z",
+					"youtube_id": "HycasOG56cU",
+					"chapitre_id": 7
+				},
+				{
+					"id": 34,
+					"nom": "Mouvement d'un projectlie dans le champ de pesanteur. Equation de la trajectoire",
+					"contenu": "",
+					"created_at": "2017-06-11T17:22:27.026Z",
+					"updated_at": "2017-06-11T17:22:27.026Z",
+					"youtube_id": "wny9CSYJ8WE",
+					"chapitre_id": 7
+				},
+				{
+					"id": 35,
+					"nom": "Mouvement d'un projectile dans le champ de pesanteur. Portée",
+					"contenu": "",
+					"created_at": "2017-06-11T17:24:12.034Z",
+					"updated_at": "2017-06-11T17:24:12.034Z",
+					"youtube_id": "BawYxgTa3xo",
+					"chapitre_id": 7
+				},
+				{
+					"id": 36,
+					"nom": "Mouvement d'un projectile dans le champ de pesanteur Flèche",
+					"contenu": "",
+					"created_at": "2017-06-11T17:25:01.940Z",
+					"updated_at": "2017-06-11T17:25:01.940Z",
+					"youtube_id": "JQ0YCyl5WXU",
+					"chapitre_id": 7
+				},
+				{
+					"id": 37,
+					"nom": "Mouvement d'une particule dans le champ de pesanteur Parabole de sureté",
+					"contenu": "",
+					"created_at": "2017-06-11T17:25:41.500Z",
+					"updated_at": "2017-06-11T17:25:41.500Z",
+					"youtube_id": "AJ2sfoYO1g0",
+					"chapitre_id": 7
+				},
+				{
+					"id": 38,
+					"nom": "Mouvement d'une particule chargée dans un champ électrique uniforme Équation de la trajectoire",
+					"contenu": "",
+					"created_at": "2017-06-11T17:26:34.611Z",
+					"updated_at": "2017-06-11T17:26:34.611Z",
+					"youtube_id": "H9ki_O_ZeuI",
+					"chapitre_id": 7
+				},
+				{
+					"id": 39,
+					"nom": "Mouvement d'une particule chargée. Caractéristiques au point de sortie",
+					"contenu": "",
+					"created_at": "2017-06-11T17:27:37.751Z",
+					"updated_at": "2017-06-11T17:27:37.751Z",
+					"youtube_id": "B9Xl8QZ7EvI",
+					"chapitre_id": 7
+				}
+			]
+		},
+		{
+			"id": 8,
+			"nom": "Cinématique",
+			"created_at": "2017-06-11T17:28:47.790Z",
+			"updated_at": "2017-06-11T17:28:47.790Z",
+			"niveau_id": 4,
+			"matiere_id": 3,
+			"videos": [{
+					"id": 40,
+					"nom": "Propriétés mouvement rectiligne uniformément varié",
+					"contenu": "",
+					"created_at": "2017-06-11T17:29:21.471Z",
+					"updated_at": "2017-06-11T17:29:21.471Z",
+					"youtube_id": "rH0G_wN6prk",
+					"chapitre_id": 8
+				},
+				{
+					"id": 41,
+					"nom": "Lancer de poids",
+					"contenu": "",
+					"created_at": "2017-06-11T17:29:59.460Z",
+					"updated_at": "2017-06-11T17:29:59.460Z",
+					"youtube_id": "hU5wq1j_d7M",
+					"chapitre_id": 8
+				}
+			]
+		},
+		{
+			"id": 9,
+			"nom": "Gravitation universelle",
+			"created_at": "2017-06-11T17:30:35.342Z",
+			"updated_at": "2017-06-11T17:30:35.342Z",
+			"niveau_id": 4,
+			"matiere_id": 3,
+			"videos": [{
+					"id": 42,
+					"nom": "vitesse d'un satellite de la terre.",
+					"contenu": "",
+					"created_at": "2017-06-11T17:31:40.738Z",
+					"updated_at": "2017-06-11T17:31:40.738Z",
+					"youtube_id": "TcrtJ9D60Z4",
+					"chapitre_id": 9
+				},
+				{
+					"id": 43,
+					"nom": "mouvement circulaire uniforme d'un satellite de la terre",
+					"contenu": "",
+					"created_at": "2017-06-11T17:32:41.388Z",
+					"updated_at": "2017-06-11T17:32:41.388Z",
+					"youtube_id": "2DsnwdWEHo0",
+					"chapitre_id": 9
+				},
+				{
+					"id": 44,
+					"nom": "Etude du mouvement d'un satellite de la terre",
+					"contenu": "",
+					"created_at": "2017-06-11T17:33:24.957Z",
+					"updated_at": "2017-06-11T17:33:24.957Z",
+					"youtube_id": "41EaE7097FA",
+					"chapitre_id": 9
+				},
+				{
+					"id": 45,
+					"nom": "Energie potentielle d'un satellite",
+					"contenu": "",
+					"created_at": "2017-06-11T17:34:15.145Z",
+					"updated_at": "2017-06-11T17:34:15.145Z",
+					"youtube_id": "GS8Q1UjTlis",
+					"chapitre_id": 9
+				},
+				{
+					"id": 46,
+					"nom": "altitude d'un satellite géostationaire",
+					"contenu": "",
+					"created_at": "2017-06-11T17:35:19.684Z",
+					"updated_at": "2017-06-11T17:35:19.684Z",
+					"youtube_id": "zBualkFWoUU",
+					"chapitre_id": 9
+				},
+				{
+					"id": 47,
+					"nom": "3ieme loi de kepler",
+					"contenu": "",
+					"created_at": "2017-06-11T17:35:41.590Z",
+					"updated_at": "2017-06-11T17:35:41.590Z",
+					"youtube_id": "oDAEVJYCy7U",
+					"chapitre_id": 9
+				}
+			]
+		},
+		{
+			"id": 10,
+			"nom": "Oscillations mécaniques libres",
+			"created_at": "2017-06-11T17:37:52.590Z",
+			"updated_at": "2017-06-11T17:37:52.590Z",
+			"niveau_id": 4,
+			"matiere_id": 3,
+			"videos": [{
+					"id": 48,
+					"nom": "Oscillations mécaniques. Applications",
+					"contenu": "",
+					"created_at": "2017-06-11T17:41:34.516Z",
+					"updated_at": "2017-06-11T17:41:34.516Z",
+					"youtube_id": "XzphED7HgHg",
+					"chapitre_id": 10
+				},
+				{
+					"id": 49,
+					"nom": "Oscillations mécaniques. Etude théorique, oscillations mécaniques libres amorties",
+					"contenu": "",
+					"created_at": "2017-06-11T17:42:10.743Z",
+					"updated_at": "2017-06-11T17:42:10.743Z",
+					"youtube_id": "ngzPxFeL0rc",
+					"chapitre_id": 10
+				},
+				{
+					"id": 50,
+					"nom": "Oscillations mécaniques. Amortissement des oscillations",
+					"contenu": "",
+					"created_at": "2017-06-11T17:43:01.863Z",
+					"updated_at": "2017-06-11T17:43:01.863Z",
+					"youtube_id": "XITApg29ozs",
+					"chapitre_id": 10
+				},
+				{
+					"id": 51,
+					"nom": "Oscillations mécaniques. Etude expérimentale du pendule élastique horizontal",
+					"contenu": "",
+					"created_at": "2017-06-11T17:44:30.734Z",
+					"updated_at": "2017-06-11T17:44:30.734Z",
+					"youtube_id": "94BMdOkxWNo",
+					"chapitre_id": 10
+				},
+				{
+					"id": 52,
+					"nom": "Oscillations mécaniques. Etude théorique du pendule simple",
+					"contenu": "",
+					"created_at": "2017-06-11T17:45:28.459Z",
+					"updated_at": "2017-06-11T17:45:28.459Z",
+					"youtube_id": "XJAlVH3z8VE",
+					"chapitre_id": 10
+				},
+				{
+					"id": 53,
+					"nom": "Oscillations mécaniques. Etude expérimentale du pendule simple",
+					"contenu": "",
+					"created_at": "2017-06-11T17:46:08.782Z",
+					"updated_at": "2017-06-11T17:46:08.782Z",
+					"youtube_id": "zdtkK6hZHyU",
+					"chapitre_id": 10
+				},
+				{
+					"id": 54,
+					"nom": "Oscillations mécaniques. Introduction",
+					"contenu": "",
+					"created_at": "2017-06-11T17:47:16.711Z",
+					"updated_at": "2017-06-11T17:47:16.711Z",
+					"youtube_id": "CrAzmPu7LNs",
+					"chapitre_id": 10
+				}
+			]
+		},
+		{
+			"id": 11,
+			"nom": "Les origines et la spécificité de la philosophie",
+			"created_at": "2017-06-11T21:34:37.233Z",
+			"updated_at": "2017-06-11T21:34:37.233Z",
+			"niveau_id": 3,
+			"matiere_id": 6,
+			"videos": [{
+					"id": 55,
+					"nom": "La spéciicité de la philosophie",
+					"contenu": "",
+					"created_at": "2017-06-11T21:35:31.078Z",
+					"updated_at": "2017-06-11T21:35:31.078Z",
+					"youtube_id": "I0b63ciAdw0",
+					"chapitre_id": 11
+				},
+				{
+					"id": 56,
+					"nom": "Les origines de la philosophie",
+					"contenu": "",
+					"created_at": "2017-06-11T21:36:15.932Z",
+					"updated_at": "2017-06-11T21:36:15.932Z",
+					"youtube_id": "6CZ-jHn9RLY",
+					"chapitre_id": 11
+				}
+			]
+		},
+		{
+			"id": 12,
+			"nom": "Les grandes interrogations philosophiques ",
+			"created_at": "2017-06-11T21:36:55.042Z",
+			"updated_at": "2017-06-11T21:36:55.042Z",
+			"niveau_id": 3,
+			"matiere_id": 6,
+			"videos": [{
+					"id": 57,
+					"nom": " Introduction aux grandes interrogations philsophiques",
+					"contenu": "",
+					"created_at": "2017-06-11T21:37:47.392Z",
+					"updated_at": "2017-06-11T21:37:47.392Z",
+					"youtube_id": "su44qW4ILJA",
+					"chapitre_id": 12
+				},
+				{
+					"id": 58,
+					"nom": "Interrogation axiologique Problématique ",
+					"contenu": "",
+					"created_at": "2017-06-11T21:38:37.621Z",
+					"updated_at": "2017-06-11T21:38:37.621Z",
+					"youtube_id": "YQEdWP9xr-M",
+					"chapitre_id": 12
+				},
+				{
+					"id": 59,
+					"nom": "Interrogation axiologique Analyse de la définition",
+					"contenu": "",
+					"created_at": "2017-06-11T21:39:20.278Z",
+					"updated_at": "2017-06-11T21:39:20.278Z",
+					"youtube_id": "q6mzJ0BEo4Q",
+					"chapitre_id": 12
+				},
+				{
+					"id": 60,
+					"nom": "Interrogation axiologique Définition",
+					"contenu": "",
+					"created_at": "2017-06-11T21:40:14.400Z",
+					"updated_at": "2017-06-11T21:40:14.400Z",
+					"youtube_id": "Q3-Y3bnBcCQ",
+					"chapitre_id": 12
+				},
+				{
+					"id": 61,
+					"nom": " Interrogation anthropologique Problematique",
+					"contenu": "",
+					"created_at": "2017-06-11T21:41:57.512Z",
+					"updated_at": "2017-06-11T21:41:57.512Z",
+					"youtube_id": "O7FNtaBsgB4",
+					"chapitre_id": 12
+				},
+				{
+					"id": 62,
+					"nom": "Interrogation anthropologique Analyse definition",
+					"contenu": "",
+					"created_at": "2017-06-11T21:42:45.923Z",
+					"updated_at": "2017-06-11T21:42:45.923Z",
+					"youtube_id": "XpOuqQkY1Ng",
+					"chapitre_id": 12
+				},
+				{
+					"id": 63,
+					"nom": "Interrogation anthropologique. Definition",
+					"contenu": "",
+					"created_at": "2017-06-11T21:44:29.246Z",
+					"updated_at": "2017-06-11T21:44:29.246Z",
+					"youtube_id": "NQ0POTG1eBw",
+					"chapitre_id": 12
+				},
+				{
+					"id": 64,
+					"nom": "Interrogation anthropologique. Introduction",
+					"contenu": "",
+					"created_at": "2017-06-11T21:45:27.167Z",
+					"updated_at": "2017-06-11T21:45:27.167Z",
+					"youtube_id": "MelK0dv-vto",
+					"chapitre_id": 12
+				},
+				{
+					"id": 65,
+					"nom": "Interrogation métaphysique Programme conclusion",
+					"contenu": "",
+					"created_at": "2017-06-11T21:48:10.839Z",
+					"updated_at": "2017-06-11T21:48:10.839Z",
+					"youtube_id": "LEQem0QTBCk",
+					"chapitre_id": 12
+				},
+				{
+					"id": 66,
+					"nom": "Interrogation métaphysique Analyse de la définition",
+					"contenu": "",
+					"created_at": "2017-06-11T21:49:00.983Z",
+					"updated_at": "2017-06-11T21:49:00.983Z",
+					"youtube_id": "DsNuu9UYRIA",
+					"chapitre_id": 12
+				},
+				{
+					"id": 67,
+					"nom": "Interrogation métaphysique Définition",
+					"contenu": "",
+					"created_at": "2017-06-11T21:50:10.556Z",
+					"updated_at": "2017-06-11T21:50:10.556Z",
+					"youtube_id": "4pilYqiTP98",
+					"chapitre_id": 12
+				}
+			]
+		},
+		{
+			"id": 13,
+			"nom": "La finalité des grandes interrogations",
+			"created_at": "2017-06-11T22:00:45.209Z",
+			"updated_at": "2017-06-11T22:00:45.209Z",
+			"niveau_id": 3,
+			"matiere_id": 6,
+			"videos": [{
+					"id": 68,
+					"nom": "Finalité : La philosophie comme amour de la sagesse",
+					"contenu": "",
+					"created_at": "2017-06-11T22:01:38.404Z",
+					"updated_at": "2017-06-11T22:01:38.404Z",
+					"youtube_id": "z6STR9gjpqQ",
+					"chapitre_id": 13
+				},
+				{
+					"id": 69,
+					"nom": "Finalité : La philosophie comme système",
+					"contenu": "",
+					"created_at": "2017-06-11T22:02:17.946Z",
+					"updated_at": "2017-06-11T22:02:17.946Z",
+					"youtube_id": "J1rpBuWwaQk",
+					"chapitre_id": 13
+				}
+			]
+		},
+		{
+			"id": 14,
+			"nom": "La philosophie africaine",
+			"created_at": "2017-06-11T22:02:58.852Z",
+			"updated_at": "2017-06-11T22:02:58.852Z",
+			"niveau_id": 3,
+			"matiere_id": 6,
+			"videos": [{
+					"id": 70,
+					"nom": "La philosophie Africaine Introduction",
+					"contenu": "",
+					"created_at": "2017-06-11T22:04:22.831Z",
+					"updated_at": "2017-06-11T22:04:22.831Z",
+					"youtube_id": "gU2cKF593iY",
+					"chapitre_id": 14
+				},
+				{
+					"id": 71,
+					"nom": "La philosophie africaine. La philosophie bantoue du père P Tempels",
+					"contenu": "",
+					"created_at": "2017-06-11T22:07:40.772Z",
+					"updated_at": "2017-06-11T22:07:40.772Z",
+					"youtube_id": "caqVSvolY78",
+					"chapitre_id": 14
+				},
+				{
+					"id": 72,
+					"nom": "La philosophie africaine Controverse autour de l'ethnophilosophie",
+					"contenu": "",
+					"created_at": "2017-06-11T22:08:17.722Z",
+					"updated_at": "2017-06-11T22:08:17.722Z",
+					"youtube_id": "0XVvGII_8bU",
+					"chapitre_id": 14
+				},
+				{
+					"id": 73,
+					"nom": "La philosophie africaine Conclusion",
+					"contenu": "",
+					"created_at": "2017-06-11T22:09:15.619Z",
+					"updated_at": "2017-06-11T22:09:15.619Z",
+					"youtube_id": "Yz2qnncakKA",
+					"chapitre_id": 14
+				},
+				{
+					"id": 74,
+					"nom": "Souleymane Bachir Diagne - Philosopher en Afrique",
+					"contenu": "",
+					"created_at": "2017-06-11T22:10:01.839Z",
+					"updated_at": "2017-06-11T22:10:01.839Z",
+					"youtube_id": "pOCaMDeZ6rI",
+					"chapitre_id": 14
+				}
+			]
+		},
+		{
+			"id": 15,
+			"nom": "La science et l'esprit scientifique",
+			"created_at": "2017-06-11T22:10:42.314Z",
+			"updated_at": "2017-06-11T22:10:42.314Z",
+			"niveau_id": 3,
+			"matiere_id": 6,
+			"videos": [{
+					"id": 75,
+					"nom": "Epistémologie Introduction",
+					"contenu": "",
+					"created_at": "2017-06-11T22:12:20.866Z",
+					"updated_at": "2017-06-11T22:12:20.866Z",
+					"youtube_id": "gDEIGSjF1nM",
+					"chapitre_id": 15
+				},
+				{
+					"id": 76,
+					"nom": "La science et l'esprit scientifique Définition",
+					"contenu": "",
+					"created_at": "2017-06-11T22:12:58.722Z",
+					"updated_at": "2017-06-11T22:12:58.722Z",
+					"youtube_id": "eyaydEtfwgM",
+					"chapitre_id": 15
+				},
+				{
+					"id": 77,
+					"nom": "La science et l'esprit scientifique Analyse de la definition",
+					"contenu": "",
+					"created_at": "2017-06-11T22:13:20.806Z",
+					"updated_at": "2017-06-11T22:13:20.806Z",
+					"youtube_id": "pm7JgBqaWbM",
+					"chapitre_id": 15
+				}
+			]
+		},
+		{
+			"id": 16,
+			"nom": "Les différents types de science",
+			"created_at": "2017-06-11T22:14:05.599Z",
+			"updated_at": "2017-06-11T22:14:05.599Z",
+			"niveau_id": 3,
+			"matiere_id": 6,
+			"videos": [{
+					"id": 78,
+					"nom": "Les différents types de science Les sciences de l'homme",
+					"contenu": "",
+					"created_at": "2017-06-11T22:14:57.896Z",
+					"updated_at": "2017-06-11T22:14:57.896Z",
+					"youtube_id": "caYmPJWYdmA",
+					"chapitre_id": 16
+				},
+
+				{
+					"id": 79,
+					"nom": "Les différents types de science Les sciences de la nature",
+					"contenu": "",
+					"created_at": "2017-06-11T22:15:33.106Z",
+					"updated_at": "2017-06-11T22:15:33.106Z",
+					"youtube_id": "o2K0RrPcCmY",
+					"chapitre_id": 16
+				},
+				{
+					"id": 80,
+					"nom": "Les différents types de science Les mathématiques",
+					"contenu": "",
+					"created_at": "2017-06-11T22:16:11.308Z",
+					"updated_at": "2017-06-11T22:16:11.308Z",
+					"youtube_id": "g64EEX2yfLU",
+					"chapitre_id": 16
+				},
+				{
+					"id": 81,
+					"nom": "Les différents types de science Les sciences logico formelles",
+					"contenu": "",
+					"created_at": "2017-06-11T22:16:51.860Z",
+					"updated_at": "2017-06-11T22:16:51.860Z",
+					"youtube_id": "OGUmZmNqvT8",
+					"chapitre_id": 16
+				},
+				{
+					"id": 82,
+					"nom": "Valeur de la vérité scientifique",
+					"contenu": "",
+					"created_at": "2017-06-11T22:17:25.405Z",
+					"updated_at": "2017-06-11T22:17:25.405Z",
+					"youtube_id": "qyZp_MOVvkY",
+					"chapitre_id": 16
+				}
+			]
+		},
+		{
+			"id": 17,
+			"nom": "Esthétique : la représentation artistique",
+			"created_at": "2017-06-11T22:18:32.717Z",
+			"updated_at": "2017-06-11T22:18:32.717Z",
+			"niveau_id": 3,
+			"matiere_id": 6,
+			"videos": [{
+					"id": 83,
+					"nom": "La représentation artistique Les fonctions de l'oeuvre d'art",
+					"contenu": "",
+					"created_at": "2017-06-11T22:19:16.010Z",
+					"updated_at": "2017-06-11T22:19:16.010Z",
+					"youtube_id": "lM5t74ne23s",
+					"chapitre_id": 17
+				},
+				{
+					"id": 84,
+					"nom": "La représentation artistique Les interprétations de l'oeuvre d'art",
+					"contenu": "",
+					"created_at": "2017-06-11T22:19:56.207Z",
+					"updated_at": "2017-06-11T22:19:56.207Z",
+					"youtube_id": "D8lm8qXQHVw",
+					"chapitre_id": 17
+				},
+				{
+					"id": 85,
+					"nom": " La représentation artistique Procédés de création artistique",
+					"contenu": "",
+					"created_at": "2017-06-11T22:20:34.140Z",
+					"updated_at": "2017-06-11T22:20:34.140Z",
+					"youtube_id": "IOrM6b7xnk0",
+					"chapitre_id": 17
+				},
+				{
+					"id": 86,
+					"nom": "La représentation artistique Nature et caractéristiques de l'oeuvre d'art",
+					"contenu": "",
+					"created_at": "2017-06-11T22:21:12.163Z",
+					"updated_at": "2017-06-11T22:21:12.163Z",
+					"youtube_id": "ilKmZqyGpx0",
+					"chapitre_id": 17
+				}
+			]
+		}
+	]
+}
