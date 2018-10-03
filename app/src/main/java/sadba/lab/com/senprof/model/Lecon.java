@@ -2,13 +2,18 @@ package sadba.lab.com.senprof.model;
 
 import java.util.List;
 
-public class Lecon {
+import io.realm.RealmList;
+import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
+
+public class Lecon extends RealmObject{
+    @PrimaryKey
     private int id;
     private String nom;
     private String contenu;
     private int matiere_id;
     private int chapitre_id;
-    private List<Video> videos;
+    private RealmList<Video> videos;
 
     public Lecon() {
     }
@@ -53,11 +58,11 @@ public class Lecon {
         this.chapitre_id = chapitre_id;
     }
 
-    public List<Video> getVideos() {
+    public RealmList<Video> getVideos() {
         return videos;
     }
 
-    public void setVideos(List<Video> videos) {
+    public void setVideos(RealmList<Video> videos) {
         this.videos = videos;
     }
 }
