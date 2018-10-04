@@ -1,9 +1,10 @@
 package sadba.lab.com.senprof.model;
 
 import io.realm.RealmList;
+import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
-public class Video extends RealmList{
+public class Video extends RealmObject{
     private String nom;
     @PrimaryKey
     private String youtube_id;
