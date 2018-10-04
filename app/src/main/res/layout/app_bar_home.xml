@@ -120,7 +120,7 @@
                         <ImageView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:src="@drawable/key"
+                            android:src="@drawable/question"
                             android:padding="10dp"/>
                         <TextView
                             android:textStyle="bold"
@@ -167,7 +167,7 @@
                         <ImageView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:src="@drawable/microscope"
+                            android:src="@drawable/physics"
                             android:padding="10dp"/>
                         <TextView
                             android:textStyle="bold"

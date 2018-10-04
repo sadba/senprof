@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private CardView tempsCard, notesCard, evalCard, infosCard;
     android.support.v7.widget.Toolbar toolbar;
 
+    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
