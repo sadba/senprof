@@ -55,21 +55,13 @@
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:background="#FFF"
+            android:text="Poser une Question"
             android:onClick="poserQuestion"
             android:padding="5dp"
             android:textColor="#000"
 
             />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:background="#FFF"
-            android:onClick="commenter"
-            android:padding="5dp"
-            android:textColor="#000"
-
-            />
 
     </LinearLayout>
 

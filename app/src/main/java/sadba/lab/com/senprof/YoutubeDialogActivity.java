@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -47,7 +48,7 @@ public class YoutubeDialogActivity extends YouTubeBaseActivity implements YouTub
 
         RecyclerView recView = findViewById(R.id.recyclerVideo);
 
-        /*Lecon results = realm.where(Lecon.class).equalTo("id", matiere_id).findFirst();
+        Lecon results = realm.where(Lecon.class).findFirst();
         RealmList<Video> videos = results.getVideos();
 
         recView.setLayoutManager(new LinearLayoutManager(this));
@@ -55,7 +56,7 @@ public class YoutubeDialogActivity extends YouTubeBaseActivity implements YouTub
         Toast.makeText(this, results.getNom(), Toast.LENGTH_SHORT).show();
 
         mVideoName = findViewById(R.id.leconTxt);
-        mVideoName.setText(videoName);*/
+        mVideoName.setText(videoName);
 
         youTubePlayerView.initialize(Config.getApiKey(), this);
         playerStateChangeListener = new MyPlayerStateChangeListener();
@@ -80,6 +81,9 @@ public class YoutubeDialogActivity extends YouTubeBaseActivity implements YouTub
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
 
+    }
+
+    public void poserQuestion(View view) {
     }
 
     private final class MyPlayerStateChangeListener implements YouTubePlayer.PlayerStateChangeListener {
