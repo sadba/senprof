@@ -21,6 +21,7 @@ public class ExpandAdapter extends BaseExpandableListAdapter {
 
     private Context context;
     private List<Lecon> lecons;
+    private Lecon lecon;
 
     public ExpandAdapter(Context context, List<Lecon> lecons) {
         this.context = context;
@@ -64,7 +65,7 @@ public class ExpandAdapter extends BaseExpandableListAdapter {
 
     @Override
     public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
-        Lecon  lecon = lecons.get(groupPosition);
+        lecon = lecons.get(groupPosition);
         if (convertView == null) {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = inflater.inflate(R.layout.parent_row, null);
@@ -93,6 +94,11 @@ public class ExpandAdapter extends BaseExpandableListAdapter {
         }
         convertView.setOnClickListener(v -> {
             Intent intent = new Intent(v.getContext(), YoutubeDialogActivity.class);
+            intent.putExtra("leconId", lecon.getId());
+            intent.putExtra("youtubekey", video.getYoutube_id());
+            intent.putExtra("videoName", video.getNom());
+            intent.putExtra("matiereId", lecon.getMatiere_id());
+            v.getContext().startActivity(intent);
             v.getContext().startActivity(intent);
         });
         return convertView;
