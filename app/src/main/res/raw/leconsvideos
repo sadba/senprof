@@ -3,9 +3,7 @@
 			"id": 2,
 			"nom": "Acide et base faibles",
 			"created_at": "2017-06-08T16:28:59.977Z",
-			"updated_at": "2017-06-08T16:28:59.977Z",￼
-			"niveau_id": 4,
-			"matiere_id": 4,
+			"updated_at": "2017-06-08T16:28:59.977Z",
 			"videos": [{
 					"id": 1,
 					"nom": "domaine de predominance",
@@ -68,8 +66,6 @@
 			"nom": "Les acides carboxyliques et dérivées",
 			"created_at": "2017-06-08T16:45:19.397Z",
 			"updated_at": "2017-06-08T16:45:19.397Z",
-			"niveau_id": 4,
-			"matiere_id": 4,
 			"videos": [{
 					"id": 7,
 					"nom": "Les acide carboxyliques et dérivées. amide",
@@ -159,8 +155,6 @@
 			"nom": "Les alcools",
 			"created_at": "2017-06-11T16:48:51.054Z",
 			"updated_at": "2017-06-11T16:48:51.054Z",
-			"niveau_id": 4,
-			"matiere_id": 4,
 			"videos": [{
 					"id": 16,
 					"nom": "Les alcools Polyalcools",
@@ -222,8 +216,6 @@
 			"nom": "Cinétique chimique",
 			"created_at": "2017-06-11T16:55:27.141Z",
 			"updated_at": "2017-06-11T16:55:27.141Z",
-			"niveau_id": 4,
-			"matiere_id": 4,
 			"videos": [{
 					"id": 22,
 					"nom": "Vitesse d'un constituant d'une réaction chimique",
@@ -294,8 +286,6 @@
 			"nom": "Application des bases de la dynamique",
 			"created_at": "2017-06-11T17:04:56.898Z",
 			"updated_at": "2017-06-11T17:05:44.068Z",
-			"niveau_id": 4,
-			"matiere_id": 3,
 			"videos": [{
 					"id": 29,
 					"nom": "Introduction des bases de la dynamique",
@@ -402,8 +392,6 @@
 			"nom": "Cinématique",
 			"created_at": "2017-06-11T17:28:47.790Z",
 			"updated_at": "2017-06-11T17:28:47.790Z",
-			"niveau_id": 4,
-			"matiere_id": 3,
 			"videos": [{
 					"id": 40,
 					"nom": "Propriétés mouvement rectiligne uniformément varié",
@@ -429,8 +417,6 @@
 			"nom": "Gravitation universelle",
 			"created_at": "2017-06-11T17:30:35.342Z",
 			"updated_at": "2017-06-11T17:30:35.342Z",
-			"niveau_id": 4,
-			"matiere_id": 3,
 			"videos": [{
 					"id": 42,
 					"nom": "vitesse d'un satellite de la terre.",
@@ -492,8 +478,6 @@
 			"nom": "Oscillations mécaniques libres",
 			"created_at": "2017-06-11T17:37:52.590Z",
 			"updated_at": "2017-06-11T17:37:52.590Z",
-			"niveau_id": 4,
-			"matiere_id": 3,
 			"videos": [{
 					"id": 48,
 					"nom": "Oscillations mécaniques. Applications",
@@ -564,8 +548,6 @@
 			"nom": "Les origines et la spécificité de la philosophie",
 			"created_at": "2017-06-11T21:34:37.233Z",
 			"updated_at": "2017-06-11T21:34:37.233Z",
-			"niveau_id": 3,
-			"matiere_id": 6,
 			"videos": [{
 					"id": 55,
 					"nom": "La spéciicité de la philosophie",
@@ -591,8 +573,6 @@
 			"nom": "Les grandes interrogations philosophiques ",
 			"created_at": "2017-06-11T21:36:55.042Z",
 			"updated_at": "2017-06-11T21:36:55.042Z",
-			"niveau_id": 3,
-			"matiere_id": 6,
 			"videos": [{
 					"id": 57,
 					"nom": " Introduction aux grandes interrogations philsophiques",
@@ -699,8 +679,6 @@
 			"nom": "La finalité des grandes interrogations",
 			"created_at": "2017-06-11T22:00:45.209Z",
 			"updated_at": "2017-06-11T22:00:45.209Z",
-			"niveau_id": 3,
-			"matiere_id": 6,
 			"videos": [{
 					"id": 68,
 					"nom": "Finalité : La philosophie comme amour de la sagesse",
@@ -726,8 +704,6 @@
 			"nom": "La philosophie africaine",
 			"created_at": "2017-06-11T22:02:58.852Z",
 			"updated_at": "2017-06-11T22:02:58.852Z",
-			"niveau_id": 3,
-			"matiere_id": 6,
 			"videos": [{
 					"id": 70,
 					"nom": "La philosophie Africaine Introduction",
@@ -780,8 +756,6 @@
 			"nom": "La science et l'esprit scientifique",
 			"created_at": "2017-06-11T22:10:42.314Z",
 			"updated_at": "2017-06-11T22:10:42.314Z",
-			"niveau_id": 3,
-			"matiere_id": 6,
 			"videos": [{
 					"id": 75,
 					"nom": "Epistémologie Introduction",
@@ -816,8 +790,6 @@
 			"nom": "Les différents types de science",
 			"created_at": "2017-06-11T22:14:05.599Z",
 			"updated_at": "2017-06-11T22:14:05.599Z",
-			"niveau_id": 3,
-			"matiere_id": 6,
 			"videos": [{
 					"id": 78,
 					"nom": "Les différents types de science Les sciences de l'homme",
@@ -871,8 +843,6 @@
 			"nom": "Esthétique : la représentation artistique",
 			"created_at": "2017-06-11T22:18:32.717Z",
 			"updated_at": "2017-06-11T22:18:32.717Z",
-			"niveau_id": 3,
-			"matiere_id": 6,
 			"videos": [{
 					"id": 83,
 					"nom": "La représentation artistique Les fonctions de l'oeuvre d'art",
