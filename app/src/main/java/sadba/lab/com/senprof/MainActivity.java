@@ -1,5 +1,6 @@
 package sadba.lab.com.senprof;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -12,15 +13,26 @@ import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.bumptech.glide.Glide;
+
+import io.realm.Realm;
+import sadba.lab.com.senprof.Model.UserResponse;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, NavigationView.OnNavigationItemSelectedListener{
 
 
     private CardView tempsCard, notesCard, evalCard, infosCard;
     android.support.v7.widget.Toolbar toolbar;
+    TextView txtNav;
+    private Realm realm;
+    ImageView avatar;
+    private String url;
 
-    
-
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +45,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         toolbar =  findViewById(R.id.toolbarHome);
 
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+
+        View headerView = navigationView.getHeaderView(0);
+        txtNav = headerView.findViewById(R.id.prenom);
+        avatar = headerView.findViewById(R.id.imageView);
+
         CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsingtoolbar);
         collapsingToolbar.setTitle("SENPROF");
 
@@ -43,17 +63,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
 
 
-        View headerView = navigationView.getHeaderView(0);
+
+
 
         //Add Click Listener to the cards
         tempsCard.setOnClickListener(this);
         notesCard.setOnClickListener(this);
         evalCard.setOnClickListener(this);
         infosCard.setOnClickListener(this);
+
+        realm = Realm.getDefaultInstance();
+        UserResponse userResponse = realm.where(UserResponse.class).findFirst();
+        assert userResponse != null;
+        url = userResponse.getAvatar();
+        txtNav.setText(userResponse.getPrenom() + " " + userResponse.getNom());
+        Glide.with(this)
+                .load(url)
+                .into(avatar);
+
+        realm.close();
     }
 
     @Override
@@ -91,6 +121,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
+       // Intent intent = new Intent(this, ListLeconsActivity.class);
+        //startActivity(intent);
 
     }
 }
