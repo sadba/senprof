@@ -74,11 +74,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         evalCard.setOnClickListener(this);
         infosCard.setOnClickListener(this);
 
+
+        //get data from UserResponse Model
         realm = Realm.getDefaultInstance();
         UserResponse userResponse = realm.where(UserResponse.class).findFirst();
         assert userResponse != null;
         url = userResponse.getAvatar();
-        txtNav.setText(userResponse.getPrenom() + " " + userResponse.getNom());
+        txtNav.setText(userResponse.getPrenom().trim() + " " + userResponse.getNom().trim());
         Glide.with(this)
                 .load(url)
                 .into(avatar);
@@ -124,5 +126,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
        // Intent intent = new Intent(this, ListLeconsActivity.class);
         //startActivity(intent);
 
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (realm != null) {
+            realm.close();
+        }
     }
 }

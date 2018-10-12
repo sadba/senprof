@@ -3,6 +3,7 @@ package sadba.lab.com.senprof;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,6 +23,7 @@ import io.realm.exceptions.RealmPrimaryKeyConstraintException;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+import retrofit2.Retrofit;
 import sadba.lab.com.senprof.Model.UserResponse;
 import sadba.lab.com.senprof.Model.Users;
 import sadba.lab.com.senprof.Remote.Common;
@@ -32,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
     Button btnLogin;
     SharedPreferences sp;
     IMyAPI mService;
-    private Realm realm;
+    Realm realm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,15 +45,8 @@ public class LoginActivity extends AppCompatActivity {
 
         //Init Service
         mService = Common.getAPI();
-        Realm.init(getApplicationContext());
-
-        realm = Realm.getDefaultInstance();
-
-
         //Init View
-       // txt_verif = findViewById(R.id.txt_verif);
         edt_ien = findViewById(R.id.edt_ien);
-        /* edt_password = findViewById(R.id.edt_password); */
         btnLogin = findViewById(R.id.btn_login);
 
 
@@ -77,7 +73,30 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
+
+        //sadTest(edt_ien.getText().toString());
     }
+
+   /* private void sadTest(String ien) {
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("blabla")
+                .build();
+
+        IMyAPI api = retrofit.create(IMyAPI.class);
+        Users users = new Users();
+        users.setIen(ien);
+        api.verifUser(users).enqueue(new Callback<UserResponse>() {
+            @Override
+            public void onResponse(Call<UserResponse> call, Response<UserResponse> response) {
+
+            }
+
+            @Override
+            public void onFailure(Call<UserResponse> call, Throwable t) {
+
+            }
+        });
+    } */
 
     private void connectUser(String ien) {
         final android.app.AlertDialog watingDialog = new SpotsDialog(LoginActivity.this);
@@ -88,13 +107,13 @@ public class LoginActivity extends AppCompatActivity {
         mService.verifUser(users)
                 .enqueue(new Callback<UserResponse>() {
                     @Override
-                    public void onResponse(Call<UserResponse> call, Response<UserResponse> response) {
+                    public void onResponse(@NonNull Call<UserResponse> call, @NonNull Response<UserResponse> response) {
                         final UserResponse result = response.body();
+                        assert result != null;
                         if (result.getCode().equals("1")) {
                             watingDialog.dismiss();
                             Toast.makeText(LoginActivity.this, "Paramétres de connection incorrectes", Toast.LENGTH_LONG).show();
                         } else {
-                           // watingDialog.dismiss();
                             gotToHomeActivity();
                             sp.edit().putBoolean("logged", true).apply();
                             Realm mRealm = null;
@@ -103,7 +122,7 @@ public class LoginActivity extends AppCompatActivity {
                                 final Realm finalMRealm = mRealm;
                                 mRealm.executeTransaction(new Realm.Transaction() {
                                     @Override
-                                    public void execute(Realm realm) {
+                                    public void execute(@NonNull Realm realm) {
                                         try {
                                             UserResponse userResponse = new UserResponse();
                                             userResponse.setCode(result.getCode());

@@ -11,7 +11,7 @@ public class App extends Application {
     public void onCreate() {
 
         super.onCreate();
-        Realm.init(this);
+        Realm.init(getApplicationContext());
 
 
         RealmConfiguration config =
